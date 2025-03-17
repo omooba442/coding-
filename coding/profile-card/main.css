@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(78,205,196,1) 0%, rgba(255,107,107,1) 45%);
+    font-family:'Inter', sans-serif;
+}
+.card{
+    position: relative;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+.profile .avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    margin-left: 55px;
+}
+.profile .avatar:hover{
+    transform: scale(1.1);
+}
+.profile h2{
+    color: whitesmoke;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+}
+.profile h3{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.stats div{
+    text-align: center;
+}
+.stats span{
+    color: rgba(255, 255, 255, 0.8);
+}
+.stats h4{
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 20;
+    margin-top: 30px;
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    
+}
+.social a:hover{
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateY(-5px);
+}
+.connect-btn{
+display: block;
+width: 100%;
+padding: 12px;
+margin-top: 30px;
+border: none;
+background: rgba(255, 255, 255, 0.2);
+cursor: pointer;
+border-radius: 30px;
+font-size: 20px;
+transition: all 0.3 ease-in;
+color: white;
+}
+.connect-btn:hover{
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+.fa-brands{
+    color: white;
+}
